@@ -30,9 +30,9 @@ function activateMenuAtCurrentSection(section) {
 }
 function showNavOnScroll() {
   if (scrollY > 0) {
-    navigation.classList.add('scroll')
+    start.classList.add('scroll')
   } else {
-    navigation.classList.remove('scroll')
+    start.classList.remove('scroll')
   }
 }
 function showbackTopButtonOnScroll() {
